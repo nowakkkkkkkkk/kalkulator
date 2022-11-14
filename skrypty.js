@@ -20,3 +20,16 @@ function czysc() {
 function dodajRamke() {
 document.getElementById("calosc").style.backgroundColor="yellow";
 }
+function getTime() 
+{
+    return (new Date()).toLocaleTimeString();
+}
+ 
+//wywołanie ma na celu eliminację opóźnienia sekundowego
+document.getElementById('czas').innerHTML = getTime();
+ 
+setInterval(function() {
+ 
+    document.getElementById('czas').innerHTML = getTime();
+     
+}, 1000);
