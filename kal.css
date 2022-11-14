@@ -1,0 +1,86 @@
+#all {
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	background-color: darkcyan;
+	width: 320px;
+	height: 450px;
+	border-radius: 5%;
+	border: 5px solid black;
+}
+.guziki {
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	margin: 3px;
+	color: whitesmoke;
+	background-color: black;
+}
+.guziki:hover{
+background-color: grey;
+}
+.dzialania:hover{
+background-color: beige;
+}
+.zero{
+	font-size: 25px;
+	height: 60px;
+	width: 120px;
+	margin: 3px;
+	border: 2px solid black;
+	border-radius: 60%;
+}
+.zero:hover{
+background-color: beige;
+}
+.przecinek {
+	font-size: 25px;
+	height: 60px;
+	width: 60px;
+	margin: 3px;
+	border: 2px solid black;
+	border-radius: 100%;
+
+}
+#t {
+	display: flex;
+	flex-direction: row;
+}
+.action {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: lightgrey;
+}
+#display{
+	font-size: 25px;
+	margin: 10px;
+	background-color: white;
+	width: 200px;
+	height: 40px;
+	border-radius: 5%;
+	border: 5px solid black;
+}
+#cyferki {
+display: flex;
+flex-direction: column;
+
+}
+#wszystkie {
+margin-left: 10px;
+display: flex;
+flex-direction: row;
+}
+#dzialania {
+margin: 3px;
+display: flex;
+flex-direction: column;
+}
+.action {
+font-size: 20px;
+width: 60px;
+height: 60px;
+border-radius: 100%;
+margin: 3px;
+}
